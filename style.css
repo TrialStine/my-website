@@ -12,66 +12,9 @@ body {
   color: #333;
 }
 
-/* Header and Navigation */
-header {
-  background-color: #004080;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
-}
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
 
-.navbar a:hover {
-  text-decoration: underline;
-}
-
-/* Main Content Layout */
-.main-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem;
-  gap: 2rem;
-}
-
-.bio {
-  display: flex;
-  flex-direction: row;
-  max-width: 800px;
-  align-items: center;
-  gap: 2rem;
-}
-
-.bio img {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-}
-
-.intro a {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #004080;
-  text-decoration: none;
-}
-
-.intro a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
